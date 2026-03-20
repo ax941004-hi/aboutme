@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML靜態網頁</title>
+</head>
+<body>
+    
+    <a href="https://www.google.com.tw"Google></a>
+    <a href="https://www.google.com.tw" target="_blank">Google</a><br>
+    <a href="https://www.google.com.tw" target="_self">Google</a><br>
+    <a href="https://www.google.com.tw" target="_parent">Google</a><br>
+    <a href="https://www.google.com.tw" target="_top">Google</a><br>
+
+    <img src="https://picsum.photos/id/237/200/300" alt="小黑狗"><br>
+    <img src="https://picsum.photos/id/237/200/300" width="900" height="500" alt="小黑狗"><br>
+
+    <figure>
+        <img src="https://picsum.photos/id/237/200/300" alt="小黑狗" width="200" height="400">
+        <img src="https://picsum.photos/id/169/367/267" alt="小橘狗" width="200" height="400">
+        <figcaption>可愛的小動物們</figcaption>
+    </figure>
+    <audio src="audio/audio.mp3" controls ></audio><br>
+    <audio src="audio/audio.mp3" controls preload="none" ></audio><br>
+    <audio src="audio/audio.mp3" controls preload="metadata" ></audio><br>
+    <audio src="audio/audio.mp3" controls preload="auto" ></audio><br>
+
+    <audio controls autoplay loop>
+        <source src="audio/audio.mp3" type="audio/mp3">
+        <source src="audio/audio.ogg" type="audio/ogg">
+        <source src="audio/audio.wav" type="audio/wav">
+        <p>瀏覽器不支援HTML5</p>
+    </audio>
+    <video width="320" height="240" controls>
+        <source src="video/cafe.MP4" type="video/MP4">
+        <source src="video/cafe.3gp" type="video/ogg">
+    </video>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QLiKmca4kzI?si=P88K3HjeHWWPyxnV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpucsim%2F%3Flocale%3Dzh_TW&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.4566387181158!2d120.5746110115637!3d24.225802678258678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346915ab3fd07acf%3A0x8bea4967097a54a3!2z6Z2c5a6c5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1773976156479!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+<table>
+   <caption>個人資料</caption>
+    <tr>
+        <th>姓名</th>
+        <th>電話</th>
+        <th>地址</th>
+    </tr>
+    <tr>
+        <td>郭澔澄</td>
+        <td>06-12345678</td>
+        <td>台南市</td>
+    </tr>
+</table>
+
+<form>
+    <label>選擇科系
+        <select name="department" required>
+            <option value="select">請選擇</option>
+            <option value="cm">資管系</option>
+            <option value="cs">資工系</option>
+            <option value="ct" disabled>人工智慧系</option>
+        </select>
+    </label>
+</form>
+<form>
+    <label>
+        <input type="date" name="date">
+    </label>
+</form>
+
+</body>
+</html>
